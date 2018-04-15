@@ -4,12 +4,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-
+//Ng is to declare everything you create
 @NgModule({
-  declarations: [
+  declarations: [ //Components here
     AppComponent
   ],
-  imports: [
+  imports: [ //Imported modules and external services go here
     BrowserModule
   ],
   providers: [],
